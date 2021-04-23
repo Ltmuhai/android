@@ -48,6 +48,12 @@ public class UserAddActivity extends AppCompatActivity {
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=new Intent();
+                Bundle bundle1=new Bundle();
+                bundle1.putString("user",null);
+                bundle1.putString("phone",null);
+                intent.putExtras(bundle1);
+                setResult(Activity.RESULT_OK,intent);
                 finish();
             }
         });

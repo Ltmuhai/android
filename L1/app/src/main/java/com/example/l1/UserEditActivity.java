@@ -28,6 +28,14 @@ public class UserEditActivity extends AppCompatActivity {
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent=new Intent();
+                Bundle bundle1=new Bundle();
+                Bundle bundle2=getIntent().getExtras();
+                bundle1.putString("user",null);
+                bundle1.putString("phone",null);
+                bundle1.putInt("id", (bundle2.getInt("id")));
+                intent.putExtras(bundle1);
+                setResult(Activity.RESULT_OK,intent);
                 finish();
             }
         });

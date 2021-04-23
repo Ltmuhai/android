@@ -143,11 +143,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode==0){
-            userList.add(new User(data.getExtras().getString("user"), data.getExtras().getString("phone")));
+            if (data.getExtras().getString("user")!=null||data.getExtras().getString("phone")!=null){
+                userList.add(new User(data.getExtras().getString("user"), data.getExtras().getString("phone")));
+            }
+
         }
         if (requestCode==1){
-            userList.get(data.getExtras().getInt("id")).name=data.getExtras().getString("user");
-            userList.get(data.getExtras().getInt("id")).phone=data.getExtras().getString("phone");
+            if(data.getExtras().getString("user")!=null||data.getExtras().getString("phone")!=null){
+                userList.get(data.getExtras().getInt("id")).name=data.getExtras().getString("user");
+                userList.get(data.getExtras().getInt("id")).phone=data.getExtras().getString("phone");
+            }
+
         }
         listAdapter.notifyDataSetChanged();
     }
