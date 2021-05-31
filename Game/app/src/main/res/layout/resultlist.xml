@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:text="李文海"
+        android:id="@+id/name"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/hobby"
+        android:text="样式1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/name"
+        />
+</RelativeLayout>

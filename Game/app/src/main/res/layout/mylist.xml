@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#0037FE"
+        android:id="@+id/image"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:text="李文海"
+        android:id="@+id/name"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/image"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/last_chat"
+        android:textColor="#32000000"
+        android:text="样式1"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/name"
+        />
+</RelativeLayout>

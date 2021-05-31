@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0037FE"
+        android:id="@+id/photo"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_alignRight="@+id/photo"
+        android:layout_alignBottom="@+id/photo"
+        android:text="1"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+</RelativeLayout>
