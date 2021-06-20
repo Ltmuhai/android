@@ -55,12 +55,14 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder>{
             holder.right_gra.setVisibility(View.GONE);
             holder.leftMsg.setText(msg.getContent());
             holder.left_image.setImageResource(msg.getSend_id());
+            //holder.left_name.setText();
         }else if (msg.getType()==Msg.TYPE_SENT){
             //如果是发生消息，则显示右边的消息布局，将左边的消息布局隐藏
             holder.right_gra.setVisibility(View.VISIBLE);
             holder.left_gra.setVisibility(View.GONE);
             holder.rightMsg.setText(msg.getContent());
-            holder.right_image.setImageResource(msg.getSend_id());
+            holder.right_image.setImageResource(msg.getReceice_id());
+            //holder.right_name.setText();
         }
     }
 

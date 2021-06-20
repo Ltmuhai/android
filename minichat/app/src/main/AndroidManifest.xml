@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Minichat">
-        <activity android:name=".friendActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".friendActivity" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

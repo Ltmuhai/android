@@ -1,0 +1,3 @@
+rootProject.name = "IM"
+include ':app'
+include ':easeui_1'

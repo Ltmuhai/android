@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4cff9aa-5358-49ae-9fdb-d385c6b00cbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/libs/BaiduLBS_Android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/androidTest/java/com/hyphenate/chatuidemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/androidTest/java/com/hyphenate/chatuidemo/SimpleEntityReadWriteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/HMSPushHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/db/AppDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/db/DemoDbHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/db/entity/InviteMessageStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/interfaceOrImplement/ActivityState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/interfaceOrImplement/OnResourceParseCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/interfaceOrImplement/UserActivityLifecycleCallbacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/manager/HMSPushHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/manager/PushAndMessageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/model/ContactHeaderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/model/DemoServerSetBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/net/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/permission/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/repositories/EMChatManagerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/repositories/EMGroupManagerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/repositories/NetworkOnlyResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/service/HMSPushService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/utils/FetchUserRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/utils/ViewScrollHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/utils/video/RecyclingBitmapDrawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/widget/ArrowItemView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/common/widget/RecyclingImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/MainViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/base/BaseDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/base/BaseInitActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/activity/ImageGridActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/activity/RecorderVideoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/adapter/PickAllUserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/adapter/PickUserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/delegates/ChatConferenceInviteAdapterDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/delegates/ChatRecallAdapterDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/fragment/ImageGridFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/viewholder/ChatVideoCallViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/chat/views/ChatRowConferenceInvite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/conference/ConferenceInviteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/activity/ContactDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/adapter/ChatRoomContactAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/adapter/ContactListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/adapter/PublicGroupContactAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/viewmodels/ContactDetailViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/viewmodels/GroupContactViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/viewmodels/NewGroupViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/contact/viewmodels/PublicGroupViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/ChatRoomAdminAuthorityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/ChatRoomMemberAuthorityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/GroupAdminAuthorityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/GroupMemberAuthorityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/GroupPickContactsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/GroupSharedFilesActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/activity/NewChatRoomActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/fragment/GroupEditFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/viewmodels/ChatRoomDetailViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/group/viewmodels/SharedFilesViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/login/activity/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/login/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/login/viewmodels/LoginViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/AboutHxActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/AccountSecurityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/AppKeyManageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/DiagnoseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/MessageReceiveSetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/NamePasswordActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/activity/OfflinePushSettingsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/me/viewmodels/OfflinePushSetViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/message/NewFriendsMsgAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/message/delegates/OtherMsgDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/message/viewmodels/NewFriendsViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/search/SearchBlackActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/search/SearchChatRoomActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/search/SearchConversationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/search/SearchGroupChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/java/com/hyphenate/easeim/section/search/SearchSingleChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/jniLibs/armeabi-v7a/libBaiduMapSDK_util_v4_0_0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/jniLibs/armeabi/libBaiduMapSDK_base_v4_0_0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/jniLibs/armeabi/liblocSDK7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/jniLibs/x86/libBaiduMapSDK_map_v4_0_0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/jniLibs/x86/libBaiduMapSDK_util_v4_0_0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/anim/slide_in_from_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/anim/slide_in_out_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/d_pwd_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ease_groups_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ease_mm_listitem_simple.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ease_search_bar_icon_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ease_search_clear_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ease_search_clear_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/em_conversation_menu_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/em_main_tab_me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/em_mm_title_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ic_book_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/ic_music_note_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_002.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_013.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_018_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_020_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_021.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_021_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_024_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_030.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-hdpi/icon_035.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-mdpi/demo_unread_count_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-mdpi/em_main_tab_conversation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-mdpi/em_main_tab_conversation_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-mdpi/em_main_tab_discover_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-mdpi/em_main_tab_me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/call_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/d_pwd_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/d_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/demo_device_ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/demo_radio_unselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/demo_unread_count_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/ease_default_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_chat_user_card_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_conversation_menu_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_friends_chat_room.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_friends_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_main_tab_discover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_main_tab_friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_main_tab_me_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_search_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xhdpi/em_toast_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00068.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/animate_00086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/d_pwd_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/demo_check_uncheck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/demo_progress_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/em_home_menu_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxhdpi/em_main_tab_conversation_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable-xxxhdpi/em_main_tab_friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_add_contact_button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_btn_style_alert_dialog_special.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_button_register_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_button_unenable_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_chat_delivery_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_debug_item_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_dialog_btn_left_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_dialog_btn_right_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_indicator_shape_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_loading_recall_progress_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_login_btn_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_login_btn_right_enable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_login_btn_right_unable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_login_version_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_main_tab_discover_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_main_tab_me_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_main_tv_message_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_recall_message_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_ripple_click_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_search_tv_bg_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_selector_bg_gray_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_switch_track_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/demo_toast_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/em_call_desk_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/drawable/em_chat_user_card_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/content_head_image_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_chat_chat_room_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_contact_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_diagnose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_friends_chat_room_contact_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_message_push_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_new_group.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_privacy_index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_system_msgs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_activity_user_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_badge_friends.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_common_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_fragment_about_me.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_fragment_dialog_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_fragment_server_set.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_image_grid_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_friends_empty_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_item_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_item_shared_file_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_item_switch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_no_data_show_nothing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_progress_recall.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_layout_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/demo_multi_dev_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/ease_row_received_user_card.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/ease_row_received_video_call.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/ease_row_received_voice_call.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/layout/ease_search_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/menu/demo_conversation_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/menu/demo_friends_list_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/menu/demo_group_member_authority_item_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/menu/demo_group_member_authority_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/mipmap-xxxhdpi/em_logo_uidemo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/raw/em_outgoing.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/values/demo_attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/values/demo_colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/values/demo_dialog_dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/values/demo_strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/values/demo_styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/EaseIm3.0/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/arm64-v8a/libhyphenate.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/hyphenatechat_3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/x86/libhyphenate.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/x86_64/libsqlite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/replace.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/SearchActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minichat/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/app/src/main/java/com/example/game/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/app/src/main/java/com/example/game/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game/app/src/main/java/com/example/game/ImageBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/app/src/main/java/com/example/game/ImageBinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/MsgAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/java/com/example/minichat/MsgAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minichat/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minichat/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1u7BrZaaAkw1oJQFKXYI1i9H9UQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/EaseIm3.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4cff9aa-5358-49ae-9fdb-d385c6b00cbe" name="Default Changelist" comment="" />
+      <created>1624006946503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624006946503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1624006958188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624006958188" />
+  </component>
+</project>

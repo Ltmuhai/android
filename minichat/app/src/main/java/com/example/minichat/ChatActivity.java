@@ -52,8 +52,8 @@ public class ChatActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String content=input.getText().toString();
                 if (!"".equals(content)){
-                    Msg msg=new Msg(content,Msg.TYPE_SENT);
-                    msgList.add(msg);                                         //todu：传入数据库
+                    Msg msg=new Msg(content,Msg.TYPE_SENT,1,bundle.getInt("id"));
+                    msgList.add(msg);                                         //todu：传入数据库,传入发送着id和接收者id
                     msgAdapter.notifyItemInserted(msgList.size()-1);
                     msg_list.scrollToPosition(msgList.size()-1);
                     input.setText("");

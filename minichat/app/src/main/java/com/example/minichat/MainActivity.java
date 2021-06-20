@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import java.util.ArrayList;
@@ -16,6 +18,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     RecyclerView chatlist;
     ChatAdapter chatAdapter;
+    Button search;
+    EditText find;
     ImageButton add;
     List<User> userList = new ArrayList<>();
     Intent intent;
@@ -26,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         chatlist=findViewById(R.id.chatlist);
         add=findViewById(R.id.add);
+        search=findViewById(R.id.search);
+        find=findViewById(R.id.find);
 
         chatAdapter=new ChatAdapter(userList);
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
@@ -37,9 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 bundle=new Bundle();
                 bundle.putInt("pos",position);
                 bundle.putString("username",username);
-                //bundle.putString("last_chat",last_chat);
                 bundle.putInt("gender",gender);
-                bundle.putInt("id",id);
+                bundle.putInt("receice_id",id);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
@@ -52,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //添加联系人
+            }
+        });
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent=new Intent(MainActivity.this, SearchActivity.class);
+                bundle=new Bundle();
+                bundle.putString("search",find.getText().toString());
+                intent.putExtras(bundle);
+                startActivity(intent);
             }
         });
     }
