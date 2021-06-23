@@ -3,6 +3,7 @@ package com.example.im.controller.activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -12,6 +13,8 @@ import android.widget.Toast;
 
 import com.example.im.R;
 import com.example.im.model.Model;
+import com.example.im.model.bean.UserInfo;
+import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 
@@ -42,7 +45,49 @@ public class LoginActivity extends Activity {
     }
 
     private void login() {
+        String loginname=name.getText().toString();
+        String loginpwd=pwd.getText().toString();
+        if (TextUtils.isEmpty(loginname)||TextUtils.isEmpty(loginpwd)){
+            Toast.makeText(LoginActivity.this,"输入的用户名和密码不能为空",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        Model.getInstance().getGlobalThreadPool().execute(new Runnable() {
+            @Override
+            public void run() {
+                EMClient.getInstance().login(loginname,loginpwd, new EMCallBack() {
+                    @Override
+                    public void onSuccess() {
+                        //成功
+                        Model.getInstance().loginSuccess(new UserInfo(loginname));
+                        Model.getInstance().getUserAccountDao().addAccount(new UserInfo(loginname));
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(LoginActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
+                                Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                                startActivity(intent);
+                                finish();
+                            }
+                        });
+                    }
+                    @Override
+                    public void onError(int code, String error) {
+                        //失败
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(LoginActivity.this,"登录失败"+error,Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
 
+                    @Override
+                    public void onProgress(int progress, String status) {
+                        //登录过程处理
+                    }
+                });
+            }
+        });
     }
 
     private void regist() {

@@ -10,6 +10,7 @@ import android.os.Message;
 
 import com.example.im.R;
 import com.example.im.model.Model;
+import com.example.im.model.bean.UserInfo;
 import com.hyphenate.chat.EMClient;
 
 public class SplashActivity extends Activity {
@@ -25,29 +26,23 @@ public class SplashActivity extends Activity {
     };
 
     private void toMainorlogin() {
-//        new Thread(){
-//            @Override
-//            public void run() {
-//                super.run();
-//                if(EMClient.getInstance().isLoggedInBefore()){
-//                    //to main
-//                    Intent intent=new Intent(SplashActivity.this,MainActivity.class);
-//                    startActivity(intent);
-//                }
-//                else {
-//                    Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
-//                    startActivity(intent);
-//                }
-//                finish();
-//            }
-//        }.start();
         Model.getInstance().getGlobalThreadPool().execute(new Runnable() {
             @Override
             public void run() {
                 if(EMClient.getInstance().isLoggedInBefore()){
                     //to main
-                    Intent intent=new Intent(SplashActivity.this,MainActivity.class);
-                    startActivity(intent);
+                    UserInfo account=Model.getInstance().getUserAccountDao().getAccountBYHId(EMClient.getInstance().getCurrentUser());
+                    if(account==null){
+
+                        ///////记得修改回Login
+                        Intent intent=new Intent(SplashActivity.this,LoginActivity.class);
+                        startActivity(intent);
+                    }
+                    else{
+                        Model.getInstance().loginSuccess(account);
+                        Intent intent=new Intent(SplashActivity.this,MainActivity.class);
+                        startActivity(intent);
+                    }
                 }
                 else {
                     Intent intent = new Intent(SplashActivity.this, LoginActivity.class);

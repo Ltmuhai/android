@@ -14,6 +14,6 @@ public class UserAccountTable {
             + COL_HXID+" text primary key,"
             + COL_NAME+" text,"
             + COL_NICK+" text,"
-            + COL_PHOTO+" text};";
+            + COL_PHOTO+" text);";
 
 }

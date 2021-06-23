@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        app:titleBarTitle="设置"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="setting"
+            android:gravity="center"/>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="退出"
+        android:id="@+id/logout"/>
+</LinearLayout>
