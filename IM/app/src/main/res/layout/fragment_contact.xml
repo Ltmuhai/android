@@ -14,9 +14,30 @@
         android:layout_height="50dp"
         android:id="@+id/search_bar"
         android:hint="搜索" />
-    <ListView
+    <LinearLayout
+        android:id="@+id/friend_invite"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/boy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好友邀请"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/red_hole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/red_hole"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_view"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

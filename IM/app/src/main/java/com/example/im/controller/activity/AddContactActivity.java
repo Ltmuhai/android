@@ -19,9 +19,9 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 
 public class AddContactActivity extends Activity {
-    private TextView add_name,add_nick;
+    private TextView add_search,add_nick;
     private Button add_add;
-    private EditText add_search;
+    private EditText add_name;
     RelativeLayout add_rec;
     private UserInfo userInfo;
 
@@ -51,10 +51,10 @@ public class AddContactActivity extends Activity {
 
 
     private void initView() {
-        add_name=findViewById(R.id.add_name);
+        add_search=findViewById(R.id.add_search);
         add_add=findViewById(R.id.add_add);
         add_nick=findViewById(R.id.add_nick);
-        add_search=findViewById(R.id.add_search);
+        add_name=findViewById(R.id.add_name);
         add_rec=findViewById(R.id.add_rec);
     }
     private void add() {
@@ -63,10 +63,20 @@ public class AddContactActivity extends Activity {
             public void run() {
                 try {
                     EMClient.getInstance().contactManager().addContact(userInfo.getName(),"添加好友");
-                    //Toast.makeText(AddContactActivity.this,"成功",Toast.LENGTH_SHORT).show();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(AddContactActivity.this,"成功",Toast.LENGTH_SHORT).show();
+                        }
+                    });
                 } catch (HyphenateException e) {
                     e.printStackTrace();
-                   // Toast.makeText(AddContactActivity.this,"失败"+e.toString(),Toast.LENGTH_SHORT).show();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(AddContactActivity.this,"失败"+e.toString(),Toast.LENGTH_SHORT).show();
+                        }
+                    });
                 }
             }
         });

@@ -11,5 +11,5 @@ public class ContactTable {
             +COL_HXID+" taxt primary key,"
             +COL_NAME+" text,"
             +COL_NICK+" text,"
-            +COL_PHOTO+" text,);";
+            +COL_PHOTO+" text);";
 }

@@ -25,7 +25,7 @@ public class InviteTableDao {
         values.put(InviteTable.COL_USER_NAME,invationInfo.getUser().getName());
         db.replace(InviteTable.TAB_NAME,null,values);
     }
-    public List<InvationInfo> getInvation(){
+    public List<InvationInfo> getInvations(){
         SQLiteDatabase db=mHelper.getReadableDatabase();
         String sql="select * from "+InviteTable.TAB_NAME;
         Cursor cursor=db.rawQuery(sql,null);

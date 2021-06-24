@@ -25,6 +25,7 @@ public class Model {
     public void init(Context context){
         mcontext=context;
         userAccountDao = new UserAccountDao(mcontext);
+        EventListener eventListener=new EventListener(mcontext);
     }
     //获取全局线程池
     public  ExecutorService getGlobalThreadPool(){

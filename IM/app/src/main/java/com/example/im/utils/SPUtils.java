@@ -6,16 +6,16 @@ import android.content.SharedPreferences;
 import com.example.im.IMApplication;
 
 public class SPUtils {
+    public static final String IS_NEW_INVITE="is_new_invite";
     private static SPUtils instance=new SPUtils();
     private static SharedPreferences mSp;
     private  SPUtils(){
 
     }
-    private static SPUtils getInstance(){
-        if (mSp!=null){
+    public static SPUtils getInstance(){
+        if (mSp==null){
             mSp=IMApplication.getGlobalApplication().getSharedPreferences("im", Context.MODE_PRIVATE);
         }
-
 
         return instance;
     }
