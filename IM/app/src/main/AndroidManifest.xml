@@ -27,6 +27,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IM">
+
+
         <activity android:name=".controller.activity.ChatActivity"></activity>
         <activity android:name=".controller.activity.InviteActivity" />
         <activity android:name=".controller.activity.AddContactActivity" />

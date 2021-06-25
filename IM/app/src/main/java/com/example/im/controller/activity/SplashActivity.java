@@ -1,9 +1,13 @@
 package com.example.im.controller.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -14,7 +18,6 @@ import com.example.im.model.bean.UserInfo;
 import com.hyphenate.chat.EMClient;
 
 public class SplashActivity extends Activity {
-
     private Handler handler=new Handler(){
         public void handleMessage(Message msg){
             if(isFinishing()){
